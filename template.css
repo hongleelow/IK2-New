@@ -1,0 +1,26 @@
+/* {
+    background-color: #EDEDED;
+}*/
+
+body {
+    margin: 0;
+    background-color: #EDEDED;
+}
+
+
+.menunav {
+    height: 27px;
+}
+
+
+.cartnav {
+    height: 36px;
+}
+
+#homepage .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 96%;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 2%;
+}
