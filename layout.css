@@ -3,6 +3,8 @@
     justify-content: center;
 }
 
+/* main overlay styling */
+
 #homepage .main {
     background-image: url(Images/background\ main.png);
     min-height: 400px;
@@ -14,20 +16,122 @@
 } 
 
 #homepage .row-1 {
-    background-color: rgba(0, 0, 0, 0);
-    gap: 10%;
-    margin: 20% auto 0;
+    /*background-color: rgba(0, 0, 0, 0);*/
+    background-color: black;
+    gap: 20%;
+    margin: 8% auto 0;
+    position: relative;
 }
 
+#homepage h1 {
+    position: absolute;
+    left: 15%;
+    margin-top: 5%;
+}
+
+#homepage .shopbtn {
+    position: absolute;
+    right: 16%;
+    margin-top: 26%;
+    background: none;
+    border-radius: 15px;
+    width: 160px;  
+    height: 90px;
+    border-color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    border-width: 4px;
+    
+}
+
+#homepage .shopbtn:hover {
+    background-color: #EDEDED;
+    color: black;
+}
+
+
+
+/* Code for description section */
 #homepage .row-2 {
     gap: 5%;
     padding: 5%;
 }
 
+#homepage .desc {
+    margin: 2% auto 0;
+    width: 48%;
+    line-height: 1.6;
+}
+
+#homepage h2 {
+    padding-bottom: 5%;
+
+}
+
+
+
+
+/* Code for product categories */
 #homepage .categories {
-    padding: 5%;
+    padding: 4%;
     text-align: center;
 }
+
+#homepage .big {
+    width: 60vw;
+    height: 460px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+
+#homepage .small {
+    width: 32vw;
+    height: 460px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+
+#homepage .sofas {
+    background-image: url(Images/sofas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#homepage .tables {
+    background-image: url(Images/tables.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#homepage .beds {
+    background-image: url(Images/beds.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#homepage .dryers {
+    background-image: url(Images/dyers.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#homepage .row-3, #homepage .row-4 {
+    gap: 5%;
+    padding: 1%;
+}
+
+#homepage .row-3 input, #homepage .row-4 input {
+    box-shadow: 0px 5px rgba(0,0,0,0.3);
+}
+
+#homepage .row-3 input:hover, #homepage .row-4 input:hover {
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5) ;
+}
+
+
+
 
 #homepage .sale {
     padding: 2%;
@@ -39,45 +143,54 @@
 }
 
 #homepage .row-6 {
-    gap: 25%;
+    gap: 13%;
 }
 
 #homepage .p1, #homepage .p2, #homepage .p3, .price {
     display: flex;
+    justify-content: center;
+    gap: 50%;
 }
 
+
+
+
+
+/* Code for information section */
 #homepage .info {
     position: relative;
-    background-color: #816145;
+    background-color: #6B4B2E;
     padding: 3%;
 }
 
 #homepage .row-7 {
-    gap: 20%;
-}
-
-#homepage .row-8 {
-    gap: 18%;
+    gap: 12%;
+    padding-bottom: 1%;
     text-align: center;
 }
 
-#homepage .row-8 > p {
-    width: 8%;
-}
 
-#homepage .row-9 {
+
+
+
+#homepage .row-8 {
     gap: 50%;
+    text-align: center;
+    padding: 2%;
 }
 
-#homepage .shopbtn {
-    background: none;
-    border-radius: 5px;
-    width: 15vh;  
-    height: 80px;
-    border-color: white;
-    text-decoration: none;
+
+
+#homepage .phoneno, #homepage .emailadr {
+    display: flex;
+    gap: 10%;
 }
 
-#homepage .desc {
-    margin: 10% auto 0;
+#homepage .phoneno img, #homepage .emailadr img{ 
+    height: 20px;
+    margin-top: 8%;
 }
+
+
+
+
