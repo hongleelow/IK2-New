@@ -8,7 +8,7 @@
 #homepage .main {
     background-image: url(Images/background\ main.png);
     min-height: 400px;
-    height: 100vh;
+    height: 900px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,19 +33,18 @@
     position: absolute;
     right: 16%;
     margin-top: 26%;
-    background: none;
+    background: transparent;
+    border: 4px solid rgba(255, 255, 255, 0.85);
     border-radius: 15px;
     width: 160px;  
     height: 90px;
-    border-color: rgba(255, 255, 255, 0.85);
-    text-decoration: none;
-    border-width: 4px;
     
 }
 
 #homepage .shopbtn:hover {
-    background-color: #EDEDED;
+    background-color: rgba(255, 255, 255, 0.9);
     color: black;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -65,6 +64,10 @@
 #homepage h2 {
     padding-bottom: 5%;
 
+}
+
+#homepage .row-2 img {
+    height: 40vw;
 }
 
 
@@ -118,7 +121,7 @@
 }
 
 #homepage .row-3, #homepage .row-4 {
-    gap: 5%;
+    gap: 4%;
     padding: 1%;
 }
 
@@ -127,47 +130,54 @@
 }
 
 #homepage .row-3 input:hover, #homepage .row-4 input:hover {
-    box-shadow: 10px 10px 10px rgba(0,0,0,0.5) ;
+    box-shadow: 5px 10px 10px rgba(0,0,0,0.5) ;
 }
 
 
 
 
 #homepage .sale {
-    padding: 2%;
+    padding: 3%;
     text-align: center;
+    padding-bottom: 5%;
+}
+
+#homepage .row-5 img {
+    height: 20vw;
 }
 
 #homepage .row-5 {
-    gap: 10%;
+    gap: 12%;
 }
 
 #homepage .row-6 {
-    gap: 13%;
+    gap: 17%;
 }
 
-#homepage .p1, #homepage .p2, #homepage .p3, .price {
+#homepage .p1, #homepage .p2, #homepage .p3 {
     display: flex;
-    justify-content: center;
-    gap: 50%;
+    gap: 40%;
+}
+
+.price {
+    display: flex;
+    width: 20%;
+    gap: 35%;
+}
+
+#homepage .p1 > p, #homepage .p2 > p, #homepage .p3 >p {
+    margin-top: 7%;
+}
+
+
+#homepage .newp {
+    margin-top: 40%;
 }
 
 
 
 
 
-/* Code for information section */
-#homepage .info {
-    position: relative;
-    background-color: #6B4B2E;
-    padding: 3%;
-}
-
-#homepage .row-7 {
-    gap: 12%;
-    padding-bottom: 1%;
-    text-align: center;
-}
 
 
 
@@ -184,13 +194,61 @@
 #homepage .phoneno, #homepage .emailadr {
     display: flex;
     gap: 10%;
+    margin-left: 2%;
 }
 
 #homepage .phoneno img, #homepage .emailadr img{ 
     height: 20px;
-    margin-top: 8%;
+    margin-top: 7%;
 }
 
+#homepage .subscribe {
+    position: relative;
+}
 
+#homepage .newsletter {
+    margin: 15% auto 0;
+}
+
+#homepage .enteremail {
+    position: absolute;
+    height: 15px;
+    width: 200px;
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+    padding: 5%;
+    left: 0%;
+}
+
+#homepage .newsletter button {
+    position: absolute;
+    background-color: #6B4B2E;
+    border: none;
+    height: 48px;
+    width: 100px;
+    border-radius: 00px 20px 20px 0px;
+    right: -2.5%;
+
+} 
+
+/* #homepage form.newsletter input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+
+  form.newsletter button {
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; 
+    cursor: pointer;
+  } */
 
 

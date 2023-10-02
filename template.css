@@ -27,6 +27,10 @@ body {
     padding: 2%;
 }
 
+.search_bar {
+    margin-top: -0.5%;
+}
+
 .search_bar  input {
     opacity: 0.8;
     border-radius: 20px;
@@ -39,3 +43,24 @@ body {
     font-size: 1.1em;
 }
 
+/* Code for information section */
+.info {
+    position: relative;
+    background-color: #6B4B2E;
+    padding: 4%;
+    height: 175px;
+    gap: 18%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+
+.mailinfo, .licenseinfo {
+    height: 50px;
+    margin-top: 10%;
+}
+
+.delivinfo, .monthinfo {
+    height: 60px;
+    padding: 3%;
+}
